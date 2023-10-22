@@ -12,35 +12,30 @@
   }
   
   h1 {
-    @apply text-3xl;
+    @apply text-4xl;
   }
   
   h2 {
-    @apply text-2xl;
+    @apply text-3xl mb-12;
   }
 
   h3 {
-    @apply text-xl;
+    @apply text-2xl;
   }
 
-  a.font-thin {
-    @apply custom-underline-thin;
-  }
-  
   a {
     @apply custom-underline;
   }
   
+  img {
+    @apply rounded-md;
+  }
   
 }
 
 @layer utilities {
-  .custom-underline-thin {
+  .custom-underline {
     @apply border-b pb-1;
   }
-  .custom-underline {
-    @apply border-b-2;
-  }
-  
 }
 
