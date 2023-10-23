@@ -9,7 +9,7 @@ export default function Home() {
         <div className='wrapper text-center text-main-100 fill-main-100 max-w-md'>
           <svg className='mx-auto' xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path d="M12 3c-4.006 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408-.212-3.951-3.473-7.092-7.479-7.092z"/></svg>
           <h1 className='my-6'>
-            Hi, I'm Nicoli, another fine little freebie from <a href="http://www.utfpr.edu.br/">UTFPR</a>.
+            Hi, I&apos;m Nicoli, another fine little freebie from <a href="http://www.utfpr.edu.br/">UTFPR</a>.
           </h1>
           <p className='mb-10 font-thin'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur assumenda quia non quibusdam.
