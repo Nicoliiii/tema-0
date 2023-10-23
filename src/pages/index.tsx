@@ -19,7 +19,9 @@ export default function Home() {
       </section>
       <section id='intro'>
         <div className='wrapper grid sm:grid-cols-2 gap-10 text-center'>
-          <img src='/imagem.png' className='aspect-video w-full md:order-2'/>
+          <img src='/imagem.png' className='aspect-video w-full md:order-2  w-full h-auto'
+          width={0} height={0} sizes="100vw"
+          />
           <div className='text-left'>
             <h2>Lorem ipsum dolor adipiscing <br/> amet dolor consequat</h2>
             <p className='mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse omnis nulla animi porro iste soluta nam eos, sint enim molestias, officiis ipsa eum itaque! Eius sunt blanditiis hic ab voluptatibus?</p>

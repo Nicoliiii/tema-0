@@ -13,7 +13,10 @@ export default function Card({
     }: Props) 
 {
     return <div>
-        <img src={imgSrc} alt="" className='aspect-[5/3]'/>
+        <img src={imgSrc} alt=""
+        className='aspect-[5/3] w-full h-auto'
+        width={0} height={0} sizes="100vw"
+        />
         <h3 className="my-10">{title}</h3>
         <p className="mb-10">{description}</p>
         <Button dark>More</Button>
